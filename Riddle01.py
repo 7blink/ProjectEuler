@@ -7,7 +7,7 @@ def compute():
     min = 1000000000
     max = 10000000000
     #Starting with a 1 in the "zeros" count because if it was lower then it would be zero, which would make the zero's count 1.
-    for i in range(7000000000, 10000000000):
+    for i in range(1000000000, 10000000000):
         number = i
         number_string = str(number)
         count = 0

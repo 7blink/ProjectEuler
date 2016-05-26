@@ -10,6 +10,7 @@ git = "http://www." + website + ".com/"
 start = 0
 end = 37000
 
+#takes a website and tests everydomain to see if it returns a 404
 def compute():
 
 	for i in range(start,end):
